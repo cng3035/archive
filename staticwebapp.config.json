@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "route": "*",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "rewrite": "/index.html",
+      "redirect": "/index.html",
+      "statusCode": 301
+    }
+  ]
+}
