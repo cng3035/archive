@@ -12,7 +12,6 @@
         "trace",
         "patch"
       ],
-      "rewrite": "/index.html",
       "redirect": "/index.html",
       "statusCode": 301
     }
